@@ -7,8 +7,12 @@ header{
 /* 	trick： if the height and the line-height are the same the content will be in the middle of the header!!!!!!!!!!!!!!!! */
 	height:  112px; 
 	line-height: 112px;
-	
 	color: #fff;
+	
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	
 }
 
 header a.logo{
@@ -146,3 +150,6 @@ header nav ul li a:hover{
 	
 	color: #e74c3c;
 }
+
+/* slider ends here !!!!!! */
+

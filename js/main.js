@@ -29,7 +29,32 @@ jQuery(document).ready(function(){
 		}
 	});
 	
-});
+	
+	
+	
+// 	fix header nav code!!!!!!!!!!!!!!!
 
+	$(window).scroll(function(){
+
+		var top =$(window).scrollTop();
+		if(top>=60){
+			$('header').addClass('secondary-dark-blue-bg');
+		}
+
+		else
+			if($("header").hasClass('secondary-dark-blue-bg')){
+				$("header").removeClass('secondary-dark-blue-bg');
+				
+			}
+	});
+	
+	
+// 	end fix header nav code!!!!!!!!!!!!!!
+	
+	
+	
+	
+	
+});
 
 
