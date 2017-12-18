@@ -55,7 +55,7 @@ header nav ul li a:hover{
 /* !!!!!!!!!!!start of slider; */
 
 
-.slider,.slider ul, .slider ul li{
+.slider,.slider ul.slider-carousel, .slider ul.slider-carousel li{
 	
 	/* 	trick： make the slider slider ul and slider ul li the same height and width, the content will be in the center!!! */
 
@@ -69,7 +69,7 @@ header nav ul li a:hover{
 
 /* to creeat some space between the h1 and the p */
 
-.slider ul li h1{
+.slider ul.slider-carousel li h1{
 	
 	margin-bottom: 50px;
 	margin-top: 150px;
@@ -79,12 +79,12 @@ header nav ul li a:hover{
 /* to creeat some space between the buttoms and the p */
 
 
-.slider ul li p{
+.slider ul.slider-carousel li p{
 	
 	margin-bottom: 30px;
 }
 
-.slider ul li a{
+.slider ul.slider-carousel li a{
 	
 	padding: 10px 50px;
 	margin-right: 30px;
@@ -97,7 +97,7 @@ header nav ul li a:hover{
 	-moz-transition: all 0.3s ease-in;
 }
 
-.slider ul li a:last-child{
+.slider ul.slider-carousel li a:last-child{
 	
 	margin-right: 0px;
 }
@@ -130,4 +130,19 @@ header nav ul li a:hover{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
+
+.slider ul.sliderpager li{
+	
+	padding: 0 3px;
+	height: 28px;
+	line-height: 28px;
+}
+
+.slider ul.sliderpager li a{
+	
+	color: #2d82d8;
+}
+.slider ul.sliderpager li.selected a{
+	
+	color: #e74c3c;
 }

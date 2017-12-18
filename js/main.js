@@ -22,9 +22,14 @@ jQuery(document).ready(function(){
 			},
 			
 		height:'variable'
+		},
+		pagination:{
+			container: ".sliderpager",
+			anchorBuilder: false
 		}
-		
 	});
 	
 });
+
+
 
