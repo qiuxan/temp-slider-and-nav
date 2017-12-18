@@ -1,0 +1,133 @@
+header{
+	
+	
+/* 	background-color: #34495e; */
+
+
+/* 	trick： if the height and the line-height are the same the content will be in the middle of the header!!!!!!!!!!!!!!!! */
+	height:  112px; 
+	line-height: 112px;
+	
+	color: #fff;
+}
+
+header a.logo{
+	
+	float: left;
+}
+
+header nav{
+	
+	
+	float: right;
+	font-weight: bold;
+	
+}
+
+header nav ul li{
+	
+/* 	create the gaps between the nav items li */
+	padding-left: 30px;
+}
+
+header nav ul li a{
+	
+	color: #fff;
+/* 	setup a delay effect for hover */
+	transition: all 0.3s ease-in;
+	
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+
+header nav ul li a:hover{
+	
+	color: #e74c3c;
+	
+/* 	this is to stop the hover underline */
+	text-decoration: none;
+}
+
+/* header css ends here */
+
+
+/* !!!!!!!!!!!start of slider; */
+
+
+.slider,.slider ul, .slider ul li{
+	
+	/* 	trick： make the slider slider ul and slider ul li the same height and width, the content will be in the center!!! */
+
+	height: 600px;
+	
+	width: 100%;
+	
+	text-align: center;
+	color: #fff;
+}
+
+/* to creeat some space between the h1 and the p */
+
+.slider ul li h1{
+	
+	margin-bottom: 50px;
+	margin-top: 150px;
+	color: #fff;
+}
+
+/* to creeat some space between the buttoms and the p */
+
+
+.slider ul li p{
+	
+	margin-bottom: 30px;
+}
+
+.slider ul li a{
+	
+	padding: 10px 50px;
+	margin-right: 30px;
+	color: #fff;
+	font-weight: bold;
+	transition: all 0.3s ease-in;
+	
+	-o-transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+}
+
+.slider ul li a:last-child{
+	
+	margin-right: 0px;
+}
+
+.img1{
+	
+	background: url(img/slider/slider1);
+	background-size: 100% 100%;
+}
+
+/* buttoms hover event */
+
+
+.slider ul li a.cta1:hover{
+	
+	background-color: #ff695a;
+	
+/* 	make the the boder radius when hover */
+	border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.slider ul li a.cta2:hover{
+	
+	background-color: #3f9cfa;
+	border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+}
