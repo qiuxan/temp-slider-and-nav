@@ -168,7 +168,7 @@ header nav ul li a:hover{
 }
 /* services ends here!!!!!! */
 
-.services-header, .portfolio-header, .team-header,.testimonials-header{
+.services-header, .portfolio-header, .team-header,.testimonials-header,.blog-header,.contact-header{
 	
 	margin-bottom: 42px;
 	text-align: center;
@@ -541,3 +541,78 @@ blockquote:after{
 	color: #e74c3c;
 }
 /* testimonials end */
+
+
+/* blog style starts */
+.blog b.date{
+	
+	color: #333;
+	
+}
+
+.blog h3 a{
+	
+	/* 	setup a delay effect for hover */
+	transition: all 0.3s ease-in;
+	
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+.blog h3 a:hover{
+	
+	color: #e74c3c;
+}
+
+
+/* blog style ends */
+
+
+/* contact style starts */
+
+.contact{
+	
+/* 	background: #39787c; */
+	background: url('img/contact-bg');
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	color: #fff;
+}
+
+form{
+	
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+input:not([type=submit]),textarea
+{
+	width: 100%;
+	margin-bottom: 40px;
+	color: #777;
+	padding-left: 20px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.2) inset;
+	border: none;
+}
+
+input:not([type=submit])
+{
+	height: 40px;
+	line-height: 40px;
+}
+
+textarea
+{
+	padding-top: 10px;
+}
+#submit{
+	padding: 10px 30px;
+	color: #fff;
+	background-color: #e74c3c;
+	border: none;
+	font-weight: bold;
+	
+}
+/* contact style ends */
