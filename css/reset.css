@@ -80,3 +80,23 @@ a:hover{
 	
 	text-decoration: none;
 }
+
+
+.section-padding{
+	
+/* 	56px gaps for top and bottom ;  0px gap for left and right */
+	padding: 56px 0;
+}
+.white{
+	
+	color: #fff;
+}
+
+.bold{
+	
+	font-weight: bold;
+}
+.center{
+	
+	text-align: center;
+}

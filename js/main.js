@@ -2,6 +2,8 @@ jQuery(document).ready(function(){
 	
 	"use strict";
 	
+	
+// 	slider code
 	$('#slider-carousel').carouFredSel({
 		
 		responsive: true,
@@ -30,9 +32,9 @@ jQuery(document).ready(function(){
 	});
 	
 	
+// 	end of slider code
 	
-	
-// 	fix header nav code!!!!!!!!!!!!!!!
+// 	fixed header nav code!!!!!!!!!!!!!!!
 
 	$(window).scroll(function(){
 
@@ -51,8 +53,98 @@ jQuery(document).ready(function(){
 	
 // 	end fix header nav code!!!!!!!!!!!!!!
 	
+// 	portfolio slider code
+
+$('.portfolio-carousel').carouFredSel({
+		
+		responsive: true,
+		width: '100%',
+		circular: true,
+		prev:'#prev',
+		next:'#next',
+		scroll:{
+			items:1,
+			duration:500,
+			pauseOnHover:true
+		},
+		auto:true,
+		
+		items:{
+			visible:{
+				
+				min:1,
+				max:4
+			},
+			
+		height:'variable'
+		}
+		
+	});
+
+// end of portfolio slider code
 	
 	
+	// 	team slider code
+
+$('.team-carousel').carouFredSel({
+		
+		responsive: true,
+		width: '100%',
+		circular: true,
+		prev:'#team-prev',
+		next:'#team-next',
+		scroll:{
+			items:1,
+			duration:500,
+			pauseOnHover:true
+		},
+		auto:true,
+		
+		items:{
+			visible:{
+				
+				min:1,
+				max:4
+			},
+			
+		height:'variable'
+		}
+		
+	});
+
+// end of team slider code
+
+
+// 	testimonials code
+	$('.testimonials-carousel').carouFredSel({
+		
+		responsive: true,
+		width: '100%',
+		circular: true,
+		scroll:{
+			items:1,
+			duration:500,
+			pauseOnHover:true
+		},
+		auto:true,
+		
+		items:{
+			visible:{
+				
+				min:1,
+				max:1
+			},
+			
+		height:'variable'
+		},
+		pagination:{
+			container: ".testipager",
+			anchorBuilder: false
+		}
+	});
+	
+	
+// 	end of testimonials code
 	
 	
 });
