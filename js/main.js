@@ -52,7 +52,13 @@ jQuery(document).ready(function(){
 	
 	
 // 	end fix header nav code!!!!!!!!!!!!!!
-	
+
+
+//bootstrap nav responsive code
+
+
+
+//bootstrap nav responsive code ends	
 // 	portfolio slider code
 
 $('.portfolio-carousel').carouFredSel({

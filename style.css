@@ -56,6 +56,30 @@ header nav ul li a:hover{
 /* header css ends here */
 
 
+
+/* bootstrap responsive header starts */
+
+.navbar-inverse .navbar-nav>li>a{
+	
+	color: #fff;
+/* 	setup a delay effect for hover */
+	transition: all 0.3s ease-in;
+	
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	
+	color: #e74c3c;
+	
+/* 	this is to stop the hover underline */
+	text-decoration: none;
+}
+
+/* bootstrap responsive header ends */
 /* !!!!!!!!!!!start of slider; */
 
 
