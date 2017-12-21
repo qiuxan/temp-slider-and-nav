@@ -1,16 +1,70 @@
-
-@media screen and (max-width: 992px){
-	
-	
+@media screen and (max-width: 992px) and (min-width: 768px) {
 	.navbar-header{
-		width: 25%;
+		width: 27%;
+		margin: -29px;
+	}
+	
+	.site-header{
+		height: 68px;
 	}
 	
 	.logo img{
-		width: 128px;
+		width: 100%;
 	}
 	
-	.navbar-header{
-		margin: -31px;
+	.slider,.slider ul.slider-carousel, .slider ul.slider-carousel li{
+	
+	/* 	trick： make the slider slider ul and slider ul li the same height and width, the content will be in the center!!! */
+
+	height: 450px;
+
+	
+	
+	}
+	
+	.slider ul.slider-carousel li h1{
+	
+	margin-bottom: 50px;
+	margin-top: 100px;
+	}
+}
+
+
+@media screen and (max-width: 550px)  {
+	
+	.slider,.slider ul.slider-carousel, .slider ul.slider-carousel li{
+	
+	/* 	trick： make the slider slider ul and slider ul li the same height and width, the content will be in the center!!! */
+
+	height: 380px;
+
+	
+	
+	}
+	
+	.slider ul.slider-carousel li h1{
+	
+	margin-bottom: 300px;
+	margin-top: 70px;
+	}
+	
+}
+
+@media screen and (max-width: 381px)  {
+	
+	.slider ul li a{
+		
+		display: block;
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+
+	
+	.slider ul.slider-carousel li h1{
+	
+	margin-bottom: 30px;
+	margin-top: 50px;
+	font-size: 30px;
 	}
 }
